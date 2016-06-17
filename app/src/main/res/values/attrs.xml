@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ScoreBarView参数 -->
+    <declare-styleable name="ScoreBarView">
+        <attr name="barHeight" format="dimension" />
+        <attr name="barTextSize" format="dimension" />
+        <attr name="viewHeight" format="dimension" />
+    </declare-styleable>
+
+    !-- ScoreBarChart参数 -->
+    <declare-styleable name="ScoreBarChart">
+        <attr name="lineSpace" format="dimension" />
+    </declare-styleable>
+
+</resources>
