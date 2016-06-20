@@ -8,7 +8,7 @@
         <attr name="viewHeight" format="dimension" />
     </declare-styleable>
 
-    !-- ScoreBarChart参数 -->
+    <!-- ScoreBarChart参数 -->
     <declare-styleable name="ScoreBarChart">
         <attr name="lineSpace" format="dimension" />
     </declare-styleable>
