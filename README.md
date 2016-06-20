@@ -5,11 +5,11 @@ ScoreBarView &amp; ScoreBarChart
 有动画，渐变颜色的分数条形图。
 ScoreBarView 可配置三个属性，分别为：
 
-属性名 | 描述 | 单位 | 默认值
-:-:|:-|:-|:-
-barHeight|进度条高度|dp|32dp
-ViewHeight|控件高度|dp|与barHeight相同
-barTextSize|进度文字大小|sp|16sdp
+| 属性名  | 描述  | 单位 | 默认值 |
+| :-----: | :-----| :-- | :-----|
+|barHeight | 进度条高度 | dp|32dp|
+|ViewHeight | 控件高度 | dp | 与barHeight相同|
+|barTextSize | 进度文字大小 | sp | 16sdp|
 
 ```
 <com.example.neo.scorebardemo.view.ScoreBarView
@@ -25,6 +25,10 @@ barTextSize|进度文字大小|sp|16sdp
 ## ScoreBarChart
 ScoreBarView 组成的条形统计表。
 
+属性名 | 描述 | 单位 | 默认值
+ :--: | :-- | :-- | :-- 
+lineSpace|行距|dp|16dp
+
 ```
 <com.example.neo.scorebardemo.view.ScoreBarChart
         android:id="@+id/score_bar_chart"
@@ -34,7 +38,4 @@ ScoreBarView 组成的条形统计表。
         />
 ```
 
-属性名 | 描述 | 单位 | 默认值
-:-:|:-|:-|:-
-lineSpace|行距|dp|16dp
 
