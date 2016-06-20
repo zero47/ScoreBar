@@ -3,6 +3,9 @@ ScoreBarView &amp; ScoreBarChart
 
 ## ScoreBarView
 有动画，渐变颜色的分数条形图。
+
+![](./image/ScoreBar.gif)
+
 ScoreBarView 可配置三个属性，分别为：
 
 | 属性名  | 描述  | 单位 | 默认值 |
