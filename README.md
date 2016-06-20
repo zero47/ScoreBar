@@ -1,11 +1,18 @@
 # ScoreBar
 ScoreBarView &amp; ScoreBarChart
 
-## ScoreBarView
-有动画，渐变颜色的分数条形图。
+## ScoreBarView & ScoreBarChart
+ScoreBarView：一个有动画，渐变颜色的分数条形图。
 
-![](./image/ScoreBar.gif)
+ScoreBarChart：ScoreBarView 组成的条形统计表。
 
+### Demo
+![Demo](./image/ScoreBar.gif)
+
+### Import
+按需拷贝项目中的 [*ScoreBarView.java*](./app/src/main/java/com/example/neo/scorebardemo/view/ScoreBarView.java)、[*ScoreBarChart.jar*](./app/src/main/java/com/example/neo/scorebardemo/view/ScoreBarChart.java) 和 [*arrts.xml*](./app/src/main/res/values/attrs.xml) 即可。
+
+### Usage
 ScoreBarView 可配置三个属性，分别为：
 
 | 属性名  | 描述  | 单位 | 默认值 |
@@ -25,8 +32,7 @@ ScoreBarView 可配置三个属性，分别为：
         />
   ```
 
-## ScoreBarChart
-ScoreBarView 组成的条形统计表。
+ScoreBarChart 可配置一个属性：
 
 属性名 | 描述 | 单位 | 默认值
  :--: | :-- | :-- | :-- 
